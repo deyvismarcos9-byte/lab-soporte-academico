@@ -175,3 +175,21 @@ Durante el desarrollo del proyecto se utilizó inteligencia artificial como herr
 La implementación, ejecución y comprobación del funcionamiento del sistema fueron realizadas por el estudiante. Las respuestas obtenidas mediante inteligencia artificial fueron revisadas y adaptadas de acuerdo con las necesidades del proyecto.
 
 La inteligencia artificial fue utilizada como apoyo al aprendizaje y no como sustituto de la comprensión y participación del estudiante en el desarrollo del trabajo.
+## Evidencias de funcionamiento
+
+Durante las pruebas del sistema se verificaron diferentes situaciones:
+
+- Registro de solicitudes con datos válidos.
+- Validación de códigos con menos de 5 caracteres.
+- Validación de nombres vacíos.
+- Validación de descripciones vacías.
+- Validación de tipos de consulta no permitidos.
+- Asignación de prioridad Alta para consultas de plataforma.
+- Asignación de prioridad Media para consultas de pagos.
+- Asignación de prioridad Baja para consultas como constancia.
+- Registro de tres o más solicitudes.
+- Visualización de las solicitudes registradas.
+- Conteo total de solicitudes.
+- Finalización correcta del programa.
+
+Las capturas de pantalla de estas pruebas se utilizan como evidencia del funcionamiento del sistema y permiten comprobar que las validaciones y funcionalidades implementadas responden de acuerdo con lo esperado.
