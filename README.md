@@ -168,3 +168,10 @@ Finalmente, las pruebas realizadas permitieron comprobar el funcionamiento del s
 5. El uso de Git y GitHub permitió registrar los avances del proyecto y mantener un historial de los cambios realizados.
 
 6. El desarrollo del proyecto permitió reforzar los conocimientos de programación en Python y mejorar la organización del código mediante funciones.
+## Declaración de uso de inteligencia artificial
+
+Durante el desarrollo del proyecto se utilizó inteligencia artificial como herramienta de apoyo para comprender conceptos de programación, revisar la estructura del código, identificar posibles errores y mejorar la documentación del proyecto.
+
+La implementación, ejecución y comprobación del funcionamiento del sistema fueron realizadas por el estudiante. Las respuestas obtenidas mediante inteligencia artificial fueron revisadas y adaptadas de acuerdo con las necesidades del proyecto.
+
+La inteligencia artificial fue utilizada como apoyo al aprendizaje y no como sustituto de la comprensión y participación del estudiante en el desarrollo del trabajo.
