@@ -15,61 +15,62 @@ El sistema permite registrar solicitudes de soporte académico, validar los dato
 - Validar el tipo de consulta.
 - Asignar prioridad automáticamente.
 - Mostrar las solicitudes registradas.
-- Contabilizar las solicitudes.
-- Finalizar correctamente el programa.
+- Contabilizar las solicitudes registradas.
+- Permitir salir correctamente del sistema.
 
 ## Tipos de consulta
 
-- Matrícula
-- Pagos
-- Constancia
-- Plataforma
-- Otro
+El sistema permite registrar los siguientes tipos de consulta:
 
-## Prioridades
-
-| Tipo de consulta | Prioridad |
-|---|---|
-| Plataforma | Alta |
-| Pagos | Media |
-| Matrícula | Baja |
-| Constancia | Baja |
-| Otro | Baja |
-
-## Tecnologías utilizadas
-
-- Python
-- Visual Studio Code
-- Git
-- GitHub
+- `matricula`
+- `pagos`
+- `constancia`
+- `plataforma`
+- `otro`
 
 ## Validaciones
 
-El sistema verifica que:
+El sistema realiza las siguientes validaciones:
 
-- El código del estudiante tenga al menos 5 caracteres.
-- El nombre no esté vacío.
-- La descripción no esté vacía.
-- El tipo de consulta pertenezca a los tipos permitidos.
+### Código del estudiante
 
-## Pruebas realizadas
+El código debe tener como mínimo 5 caracteres.
 
-Se realizaron pruebas de:
-
-1. Registro de solicitudes.
-2. Consulta de solicitudes registradas.
-3. Validación de código incorrecto.
-4. Validación de tipo de consulta incorrecto.
-5. Asignación de prioridad alta.
-6. Asignación de prioridad media.
-7. Asignación de prioridad baja.
-8. Salida correcta del sistema.
-
-## Ejemplo de funcionamiento
+Ejemplo de error:
 
 ```text
-SOPORTE ACADÉMICO
+ERROR: El código debe tener al menos 5 caracteres.
+## Análisis del problema
 
-1. Registrar solicitud
-2. Mostrar solicitudes
-3. Salir
+El sistema de soporte académico tiene como finalidad organizar y gestionar las solicitudes realizadas por los estudiantes. El problema identificado es la necesidad de contar con un mecanismo que permita registrar correctamente los datos de cada solicitud y validar la información ingresada.
+
+Cuando los datos no son validados, pueden registrarse códigos incompletos, nombres vacíos, descripciones sin contenido o tipos de consulta que no corresponden a las opciones establecidas. Además, es necesario identificar la prioridad de cada solicitud para facilitar su atención.
+
+Por este motivo, se desarrolló un sistema en Python que permite registrar solicitudes, validar los datos ingresados, asignar automáticamente una prioridad y mostrar las solicitudes almacenadas.
+
+## Requisitos del sistema
+
+### Requisitos funcionales
+
+- RF01: El sistema debe permitir registrar una solicitud de soporte académico.
+- RF02: El sistema debe solicitar el código del estudiante.
+- RF03: El sistema debe solicitar el nombre del estudiante.
+- RF04: El sistema debe solicitar el tipo de consulta.
+- RF05: El sistema debe solicitar una descripción de la solicitud.
+- RF06: El sistema debe validar que el código tenga como mínimo 5 caracteres.
+- RF07: El sistema debe validar que el nombre no esté vacío.
+- RF08: El sistema debe validar que la descripción no esté vacía.
+- RF09: El sistema debe validar que el tipo de consulta sea válido.
+- RF10: El sistema debe asignar automáticamente una prioridad.
+- RF11: El sistema debe permitir mostrar las solicitudes registradas.
+- RF12: El sistema debe mostrar el total de solicitudes registradas.
+- RF13: El sistema debe permitir finalizar correctamente el programa.
+
+### Requisitos no funcionales
+
+- RNF01: El sistema debe desarrollarse utilizando Python.
+- RNF02: El sistema debe ejecutarse desde una terminal.
+- RNF03: El sistema debe presentar mensajes claros para el usuario.
+- RNF04: El sistema debe utilizar funciones para organizar el código.
+- RNF05: El sistema debe validar los datos antes de registrar una solicitud.
+- RNF06: El código debe mantenerse organizado y documentado.
