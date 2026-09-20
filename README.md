@@ -155,3 +155,16 @@ Una parte importante fue implementar validaciones para evitar el ingreso de dato
 El uso de Git y GitHub permitió mantener un registro de los cambios realizados durante el desarrollo. Esto facilita organizar el proyecto y realizar modificaciones de manera controlada.
 
 Finalmente, las pruebas realizadas permitieron comprobar el funcionamiento del sistema utilizando datos válidos e inválidos, identificando errores y verificando que el programa responda correctamente ante diferentes situaciones.
+## Conclusiones
+
+1. El sistema permite registrar y organizar solicitudes de soporte académico mediante una estructura sencilla y ordenada.
+
+2. Las funciones de validación ayudan a evitar el registro de información incorrecta, como códigos demasiado cortos, nombres vacíos, descripciones vacías o tipos de consulta no permitidos.
+
+3. La asignación automática de prioridades permite diferenciar las solicitudes según el tipo de consulta registrada.
+
+4. Las pruebas realizadas permitieron comprobar el comportamiento del sistema con diferentes datos y situaciones.
+
+5. El uso de Git y GitHub permitió registrar los avances del proyecto y mantener un historial de los cambios realizados.
+
+6. El desarrollo del proyecto permitió reforzar los conocimientos de programación en Python y mejorar la organización del código mediante funciones.
