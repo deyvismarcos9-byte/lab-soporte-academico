@@ -91,3 +91,18 @@ Por este motivo, se desarrolló un sistema en Python que permite registrar solic
 | RF11 | `mostrar_solicitudes()` | Muestra las solicitudes registradas. |
 | RF12 | `len(solicitudes)` | Permite contabilizar las solicitudes. |
 | RF13 | `break` | Finaliza el programa correctamente. |
+## Tabla de requisitos y pruebas
+
+| Requisito | Prueba realizada | Resultado |
+|---|---|---|
+| RF01 | Registrar una solicitud con datos válidos | Correcto |
+| RF06 | Ingresar un código con menos de 5 caracteres | Error controlado |
+| RF07 | Ingresar un nombre vacío | Error controlado |
+| RF08 | Ingresar una descripción vacía | Error controlado |
+| RF09 | Ingresar un tipo de consulta no permitido | Error controlado |
+| RF10 | Registrar una consulta de plataforma | Prioridad Alta |
+| RF10 | Registrar una consulta de pagos | Prioridad Media |
+| RF10 | Registrar una consulta de constancia u otro | Prioridad Baja |
+| RF11 | Seleccionar la opción 2 | Solicitudes mostradas |
+| RF12 | Registrar varias solicitudes | Total contabilizado |
+| RF13 | Seleccionar la opción 3 | Programa finalizado correctamente |
