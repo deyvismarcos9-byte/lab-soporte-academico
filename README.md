@@ -106,3 +106,43 @@ Por este motivo, se desarrolló un sistema en Python que permite registrar solic
 | RF11 | Seleccionar la opción 2 | Solicitudes mostradas |
 | RF12 | Registrar varias solicitudes | Total contabilizado |
 | RF13 | Seleccionar la opción 3 | Programa finalizado correctamente |
+## Pseudocódigo del sistema
+
+INICIO
+
+Mostrar menú principal.
+
+Mientras el usuario no seleccione "Salir":
+
+    Mostrar opciones:
+        1. Registrar solicitud
+        2. Mostrar solicitudes
+        3. Salir
+
+    Leer opción.
+
+    Si opción = 1:
+        Solicitar código del estudiante.
+        Validar código.
+        Solicitar nombre.
+        Validar nombre.
+        Solicitar tipo de consulta.
+        Validar tipo de consulta.
+        Solicitar descripción.
+        Validar descripción.
+        Calcular prioridad.
+        Registrar solicitud.
+        Mostrar confirmación.
+
+    Si opción = 2:
+        Mostrar las solicitudes registradas.
+        Mostrar el total de solicitudes.
+
+    Si opción = 3:
+        Mostrar mensaje de finalización.
+        Terminar programa.
+
+    Si la opción no es válida:
+        Mostrar mensaje de error.
+
+FIN
