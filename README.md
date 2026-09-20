@@ -74,3 +74,20 @@ Por este motivo, se desarrolló un sistema en Python que permite registrar solic
 - RNF04: El sistema debe utilizar funciones para organizar el código.
 - RNF05: El sistema debe validar los datos antes de registrar una solicitud.
 - RNF06: El código debe mantenerse organizado y documentado.
+## Tabla de requisitos y funciones
+
+| Requisito | Función relacionada | Descripción |
+|---|---|---|
+| RF01 | `ingresar_solicitud()` | Permite registrar una solicitud. |
+| RF02 | `validar_codigo()` | Valida el código del estudiante. |
+| RF03 | `validar_texto()` | Valida que el nombre no esté vacío. |
+| RF04 | `validar_tipo_consulta()` | Valida el tipo de consulta. |
+| RF05 | `validar_texto()` | Valida que la descripción no esté vacía. |
+| RF06 | `validar_codigo()` | Comprueba que el código tenga al menos 5 caracteres. |
+| RF07 | `validar_texto()` | Comprueba que el nombre tenga contenido. |
+| RF08 | `validar_texto()` | Comprueba que la descripción tenga contenido. |
+| RF09 | `validar_tipo_consulta()` | Comprueba que el tipo sea válido. |
+| RF10 | `calcular_prioridad()` | Asigna la prioridad automáticamente. |
+| RF11 | `mostrar_solicitudes()` | Muestra las solicitudes registradas. |
+| RF12 | `len(solicitudes)` | Permite contabilizar las solicitudes. |
+| RF13 | `break` | Finaliza el programa correctamente. |
