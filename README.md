@@ -193,3 +193,21 @@ Durante las pruebas del sistema se verificaron diferentes situaciones:
 - Finalización correcta del programa.
 
 Las capturas de pantalla de estas pruebas se utilizan como evidencia del funcionamiento del sistema y permiten comprobar que las validaciones y funcionalidades implementadas responden de acuerdo con lo esperado.
+## Estado final del proyecto
+
+El proyecto Soporte Académico se encuentra implementado y documentado. El sistema permite registrar solicitudes, validar los datos ingresados, calcular automáticamente la prioridad y mostrar las solicitudes almacenadas.
+
+Se realizaron pruebas con datos válidos e inválidos para comprobar las principales funcionalidades del programa.
+
+El proyecto se encuentra almacenado en GitHub y cuenta con un historial de cambios mediante commits.
+
+### Tecnologías utilizadas
+
+- Python
+- Visual Studio Code
+- Git
+- GitHub
+
+### Autor
+
+Frank Andersson
