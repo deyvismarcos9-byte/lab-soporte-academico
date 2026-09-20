@@ -146,3 +146,12 @@ Mientras el usuario no seleccione "Salir":
         Mostrar mensaje de error.
 
 FIN
+## Reflexión sobre el trabajo realizado
+
+El desarrollo del sistema de Soporte Académico permitió aplicar los conocimientos adquiridos en programación con Python. Durante el desarrollo se utilizaron funciones, estructuras condicionales, listas, diccionarios y validaciones para organizar el funcionamiento del programa.
+
+Una parte importante fue implementar validaciones para evitar el ingreso de datos incorrectos. También se utilizó una función para calcular automáticamente la prioridad de cada solicitud según el tipo de consulta.
+
+El uso de Git y GitHub permitió mantener un registro de los cambios realizados durante el desarrollo. Esto facilita organizar el proyecto y realizar modificaciones de manera controlada.
+
+Finalmente, las pruebas realizadas permitieron comprobar el funcionamiento del sistema utilizando datos válidos e inválidos, identificando errores y verificando que el programa responda correctamente ante diferentes situaciones.
