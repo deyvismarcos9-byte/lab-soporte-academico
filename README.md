@@ -210,4 +210,4 @@ El proyecto se encuentra almacenado en GitHub y cuenta con un historial de cambi
 
 ### Autor
 
-Frank Andersson
+Deyvis Marcos
